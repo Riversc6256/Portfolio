@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="Styling.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Add FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Christian Rivers</h1>
+            <p>B.S. Computer Science</p>
+            <p id="dynamic-text"></p>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>
+            <a href="resume.pdf" class="btn" target="_blank" download>Download Resume</a>
+        </p>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I am a passionate and eager to learn B.S. Computer Science student at the University of Wisconsin-Stout. The constant advances in technology have made me want to excel my knowledge in computer science.  </p>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3><i class="fas fa-calculator"></i> Scientific Calculator</h3>
+                <p>A GUI-based scientific calculator that I coded from scratch in java and javafx .</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me (Riversc6256@my.uwstout.edu)</h2>
+        <p>
+            <a href="mailto:Riversc6256@my.uwstout.edu" class="btn">Email Me</a>
+        </p>
+    </section>
+    <footer>
+        <p>© 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Add JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
